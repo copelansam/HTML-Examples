@@ -8,9 +8,10 @@ li {
   size: 50px;
 }
 #testDiv{
-  background-color: green;
-  color: white;
+  background-color: white;
+  color: black;
   line-height: 2;
   test-align: center;
-  border-radius: 50px;
+  border-radius: 25px;
+  padding: 10px;
 }
