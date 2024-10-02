@@ -12,4 +12,5 @@ li {
   color: white;
   line-height: 2;
   test-align: center;
+  border-radius: 50;
 }
