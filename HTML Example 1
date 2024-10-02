@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>Example Page #1</title>
+<link href = "" rel = "stylesheet.css">
+<style> 
+h1 {
+  background-color: red;
+  color: blue
+}
+</stlye>
+</head>
+<body>
+<h1>Example of internal styling sheet</h1>
+<p style = "color: green">This paragraph contains text styled with an inline style!</p>
+</body>
+</HTML>
