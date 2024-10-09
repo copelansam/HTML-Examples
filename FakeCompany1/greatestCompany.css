@@ -3,6 +3,13 @@
   color: white;
   background-repeat: none;
 }
+#title{
+  text-align: center;
+}
+body{
+  backgroung-color: #f5e478;
+  color: #8f8e8c;
+}
 a:link{
   background-color: blue;
   color: white;
