@@ -1,6 +1,6 @@
 #dog{
-  background-image: "FakeCompanyMedia/DogWithSting.JPG";
-  
+  background-image: URL("FakeCompanyMedia/DogWithSting.JPG");
+  color: white;
 }
 a:hover{
   background-color: blue;
