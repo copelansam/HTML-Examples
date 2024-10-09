@@ -1,0 +1,8 @@
+#dog{
+  background-image: "FakeCompanyMedia/DogWithSting.JPG";
+  
+}
+a:hover{
+  background-color: blue;
+  color: lime;
+}
