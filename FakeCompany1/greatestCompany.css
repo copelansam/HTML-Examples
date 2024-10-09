@@ -1,8 +1,23 @@
-body{
+#Dog {
   background-image: URL("FakeCompanyMedia/DogWithSting.JPG");
-  color: lime;
+  color: white;
+  background-repeat: none;
+}
+a:link{
+  background-color: blue;
+  color: white;
 }
 a:hover{
   background-color: blue;
   color: lime;
+}
+img.left{
+  float: left;
+  box-shadow: 5px 5px grey;
+  border-radius: 5px;
+}
+img.right{
+  float: right;
+  box-shadow: 5px 5px grey;
+  border-radius: 5px;
 }
