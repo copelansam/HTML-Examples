@@ -1,0 +1,28 @@
+<!DOCYTPEHTML>
+<HTML>
+  <head>
+    <title>The Greatest Company Ever!</title>
+    <link href = "greatestCompany.css" rel = "stylesheet"/>
+  </head>
+  <body>
+    <a id = "top"></a>
+    <h1 id = "title">The Greatest Company Ever!</h1>
+    <p>Here at The Greatest Company Ever we stirve to create products that surpass our competetors. We achieve this on a daily basis by striving 
+    for inovation and creativity. Since our fonding in 1506, we have been a part of so many of the advances in humanity. These advances include:</p>
+    <ul>
+      <li>Running Water</li>
+      <li>Paved Roads</li>
+      <li>That thing iPhones do where they read codes given to you intext messages</li>
+      <li><img src = "FakeCompanyMedia/Smiling Business Man.JPG" alt = "Smiling Business Man"></li>
+      <li>Atomic Bomb</li>
+    </ul>
+    <h4>To find out more about us please click on one of the following to be redirected to another page:</h4>
+    <ul>
+      <a><li>About Us</li></a>
+      <a><li>Jobs</li></a>
+      <a><li>Our Message</li></a>
+      <a><li>A Photo Of A Dog</li></a>
+    </ul>
+    <a href = "#top" title = "return to top">Return to Top!</a>
+  </body>
+</HTML>
