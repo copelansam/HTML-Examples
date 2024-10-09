@@ -1,13 +1,14 @@
 #Dog {
-  background-image: URL("FakeCompanyMedia/DogWithSting.JPG");
-  color: white;
+  background-image: url("FakeCompanyMedia/DogWithSting.JPG");
   background-repeat: none;
+  color: white;
+  
 }
 #title{
   text-align: center;
 }
 body{
-  backgroung-color: #f5e478;
+  background-color: #f5e478;
   color: #8f8e8c;
 }
 a:link{
