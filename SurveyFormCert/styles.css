@@ -1,0 +1,27 @@
+body{
+  text-align:center;
+  background-color:#5e0b87;
+}
+h1,p{
+  color:#cdfaf9;
+}
+form{
+  color:#cdfaf9;
+  border: solid white;
+  padding: 15px 35px;
+  font-size: 17;
+}
+.block{
+  display:block;  
+  margin:0 0.5em 0 0;
+}
+#checkboxContainer{
+  display:block;
+  padding:auto;
+  justify-content:center;
+  gap:15px;
+}
+textarea{
+  display:block;
+  margin: 0 auto;
+}
