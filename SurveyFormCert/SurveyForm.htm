@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<HTML lang = "en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Responsive Survey Form</h1>
+    <p id="description">This is a sample survey that you should fill out!</p>
+    <form id = "survey-form">
+       
+      <label for="name-label" id="name-label">Please enter your name:
+        <input required id ="name" type="text" placeholder="Enter your name" name="name"/>
+        
+      </label>
+      
+      <label for="email-label" id="email-label"><br>Please enter your Email: 
+        <input required type="email" id="email" name="email" placeholder="Enter your email"/>
+      </label>
+      
+      <label for="number-label" id="number-label"><br>Favorite Number (5-100):
+        <input type="number" id ="number" min="5" max="100" placeholder="Enter your favorite number (5-100)"/>
+      </label>
+      <br> 
+      Who would win in a fight?
+      <label for="fight">
+        <select id="dropdown" name="fight">
+          <option value="1">Goku</option>
+          <option option="2">Vegeta</option>
+          <option value="3">Frieza</option>
+        </select>
+      </label>
+      <br>Are you enjoying this survey?
+      <br><label for="Enjoy">
+        <input type="radio" name="Enjoy?" checked value="Yes"/>Yes
+        </label>
+        <label for="NoEnjoy">
+        <input type="radio" name="Enjoy?" value="No"/>
+        No
+        </label>
+         <br>Which of the following social media sites do you use?
+         <div id="checkboxContainer">
+         <label for="Socials">
+            
+            <input type="checkbox" id="Socials" value="Facebook"/>Facebook
+            <input type="checkbox" id="Socials" value="Twitter"/>Twitter
+            <input type="checkbox" id="Socials" value="Instagram"/>Instagram
+            <input type="checkbox" id="Socials" value="Snapchat"/>Snapchat
+          </label>
+        </div>
+        <label for="improvements">
+          <br>Are there any imporvements that you would like to suggest?
+          <textarea id = "improvments" rows="3" cols="30">Type improvements here!</textarea>
+
+        </label>
+      <br><input id="submit" type="Submit" name="Submit"/>
+    </form>
+  </body>
+</HTML>
