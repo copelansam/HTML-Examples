@@ -1,0 +1,16 @@
+#image{
+max-width:100%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+p, h1{
+  text-align:center;
+}
+#list{
+  text-align:center;
+}
+ul{
+  text-align:center;
+  list-style-position:inside;
+}
